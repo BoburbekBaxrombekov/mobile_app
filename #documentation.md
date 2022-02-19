@@ -1,4 +1,4 @@
-#TZ
+#DOCUMENTATION
 
 1.  
     Endpoint: "/users",
