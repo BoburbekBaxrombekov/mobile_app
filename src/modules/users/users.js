@@ -19,7 +19,7 @@ module.exports = {
     },
     DELETE: async(req, res) => {
         try {
-            const del_user = await delUser(req.body.userId)
+            const del_user = await delUser(Number(req.body.userId))
             res.send(200)
         } catch(err) {
             console.log(err.message)
